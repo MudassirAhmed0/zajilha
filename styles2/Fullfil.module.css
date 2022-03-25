@@ -1,0 +1,11 @@
+.fullfilsetimg{
+    min-width: 60.7%;
+    height: 321px;
+}
+
+@media (max-width: 640px) {
+    
+    .fullfilsetimg{
+        height: 193px;
+    }
+}

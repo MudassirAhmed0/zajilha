@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="487" height="820" viewBox="0 0 487 820">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Rectangle_3015" data-name="Rectangle 3015" d="M0,820V0H487V820Z" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_189" data-name="Group 189" clip-path="url(#clip-path)">
+    <g id="address1" transform="translate(57.37 112)">
+      <g id="Icon_feather-external-link" data-name="Icon feather-external-link" transform="translate(3.414 224.795)">
+        <path id="Path_86768" data-name="Path 86768" d="M15.947,7.516v6.445a2.137,2.137,0,0,1-2.126,2.148H2.13A2.137,2.137,0,0,1,0,13.961V2.144A2.137,2.137,0,0,1,2.13,0H8.507" transform="translate(0 3.221)" fill="none" stroke="#ffc20e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8"/>
+        <path id="Path_86769" data-name="Path 86769" d="M0,0H6.376V6.44" transform="translate(12.761)" fill="none" stroke="#ffc20e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8"/>
+        <path id="Path_86770" data-name="Path 86770" d="M0,11.808,11.693,0" transform="translate(7.444)" fill="none" stroke="#ffc20e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,180 @@
+.herosection {
+    display: flex;
+    align-items: center;
+    height: 597px;
+}
+
+.ecommerceImg {
+    min-width: 60.6%;
+    width: 60.6%;
+    height: 244px;
+}
+
+.w88 {
+    width: 88.8%;
+}
+
+.w44 {
+    min-width: 48%;
+    margin-right: 50px;
+    max-width: 48.5%;
+}
+
+.BlueSection {
+    height: auto;
+}
+
+.freightImage {
+    height: 341px;
+    min-width: 43.8%;
+    width: 43.8%;
+}
+
+.slickImage {
+    height: 304px;
+    min-width: 43.5%;
+    max-width: 43.5%;
+}
+
+.active {
+    border-bottom: 5px solid #FFC20E;
+    padding-bottom: 20px;
+}
+
+.noborder {
+    border: none;
+}
+
+.bottomContent {
+    background-color: #F7F7F7;
+}
+
+.yellowBack {
+    background-image: url('../assets/images2/about-zajil-exprece/image/bg.jpg') !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: auto;
+}
+
+.w64 {
+    width: 64.5%;
+}
+
+.newsletter {
+    width: 44% !important;
+}
+
+.wareHouseSetting {
+    min-width: 47%;
+    max-width: 47%;
+    height: 315px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.freightCarousel > div {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+}
+.ksaCarousel > div{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+} 
+
+.ecoCarousel > div { 
+    direction: ltr;
+}
+.ecoCarousel .react-multi-carousel-track {
+    direction: rtl !important;
+}
+.ecoCarousel ul {
+    direction: rtl !important;
+}
+[dir="rtl"] .carouselContainer{
+    direction: ltr;
+}
+
+@media (max-width: 640px) {
+    .ecommerceImg {
+        width: 100%;
+    }
+
+    .parent .react-multi-carousel-list {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .parent .react-multi-carousel-item {
+        width: 155px !important;
+    }
+
+    .w44 {
+        min-width: 100%;
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .w64{
+        width: 100%;
+    }
+    .newsletter{
+        width: 100% !important;
+    }
+    .freightImage{ 
+        min-width: 100%;
+        max-width: 100%;
+        height: 193px;
+    }
+    .freightCarousel > div {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .slickImage{
+        min-width: 100%;
+        width: 100%;
+        height: 293px;
+    }
+    .wareHouseSetting{
+        max-width: 100%;
+        width: 100%;
+        height: 293px;
+    }
+    .ksaCarousel > div{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ecommerceImg{
+        width: 100%;
+    }
+    .w44 {
+        min-width: 100%;
+        margin-right: 0 !important;
+        max-width: 100%;
+    }
+    .w64{
+        width: 80%;
+    }
+    .freightImage{
+        width: 100%;
+    }
+    .slickImage{
+        width: 100%;
+        max-width: 100%;
+    }
+    .wareHouseSetting{
+        max-width: 100%;
+        width: 100%;
+        height: 293px;
+    }
+    .ksaImage{
+        width: 100%;
+    }
+}

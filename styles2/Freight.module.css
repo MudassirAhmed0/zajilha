@@ -1,0 +1,24 @@
+.herosection{
+    display: flex;
+    align-items: center;
+    height: 597px;
+}
+
+.active{
+    border-bottom: 5px solid #FFC20E;
+    padding-bottom: 20px;
+}
+.freightImage{
+    height: 341px;
+    min-width: 43.8%;
+}
+
+@media (max-width: 640px) {
+    .freightImage{ 
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .herosection{
+        height: 451.25px;
+    }
+}

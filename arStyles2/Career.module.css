@@ -1,0 +1,127 @@
+.heroImage {
+    height: 639px;
+    display: flex;
+    align-items: center;
+}
+
+.BlueHeight {
+    height: 1314px;
+}
+
+.topSection {
+    height: 475px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+}
+
+.cards { 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    /* height: 277px; */
+    bottom: -55px;
+}
+.cardsMobs{
+    display: none;
+}
+.cardWidth {
+    width: 32%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 13px #00000014;
+    border: 2px solid #F5F5F5;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.yellowSection {
+    background-image: url('../assets/images2/about-zajil-exprece/image/bg.jpg') !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.accordianW {
+    width: 71%;
+}
+
+.chevron {
+    border-bottom: 2px solid #24343f2e;
+}
+
+.active .chevron {
+    border-bottom: none;
+}
+
+.active img {
+    transform: rotate(180deg);
+}
+
+
+.accordianH {
+    max-height: 55px;
+    overflow: hidden;
+    transition: .2s;
+
+}
+
+.active.accordianH {
+    max-height: 259px;
+}
+
+.brandIcon {
+    position: absolute;
+    bottom: 440px;
+    left: 0;
+    z-index: 10;
+}
+[dir="rtl"] .carouselContainer{
+    direction: ltr;
+}
+@media (max-width: 640px) {
+    .BlueHeight {
+        height: 1765px;
+    }
+
+    .topSection {
+        height: 504px;
+    }
+    .accordianW{
+        width: 100%;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+    .active.accordianH{
+        max-height: 440px;
+    }
+    
+}
+
+@media (max-width: 880px){
+    .cardWidth{
+        width: 89.5%; 
+        /* height: 291px; */
+    }
+    .cards{
+        display: none;
+    }
+    .cardsMobs{
+        display: block;
+        right: 40%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 277px;
+        bottom: -140px;
+    }
+    .cardsMobs > div {
+        overflow: visible !important;
+        direction: ltr;
+    }
+    .cardsMobs .react-multi-carousel-track {
+        direction: rtl !important;
+    }
+    .cardsMobs ul {
+        direction: rtl !important;
+    }
+}

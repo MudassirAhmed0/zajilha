@@ -1,0 +1,23 @@
+.bgColor{
+    background-color: #F7F7F7;
+}
+
+.yellowbg{
+    background-color: #FFC22E;
+    opacity: 0.95;
+}
+
+.ulDot{
+    width: 7px;
+    min-width: 7px;
+    height: 7px;
+    min-height: 7px;
+    border-radius: 50%;
+    background-color: #FFC20E;
+}
+
+@media (max-width: 640px) {
+    .yellowbg{
+        display: none;
+    }
+}

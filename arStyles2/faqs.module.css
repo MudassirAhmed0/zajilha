@@ -1,0 +1,108 @@
+.herosection {
+    height: 472px;
+    display: flex;
+    align-items: center;
+}
+.brandIconFaq{
+    bottom: -5.5rem;
+    left: -62px;
+}
+.hFaqs {
+    padding-bottom: 80px;
+}
+
+.topSection {
+    height: 193px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.newsletter.track label{
+    width: 32.13% !important;
+    color: #7D7D7D !important; 
+    
+}
+
+.newsletter{
+    width: 32.1%!important;
+}
+
+.tabList{
+    width: 17%;
+    height: 62px;
+    border: 1px solid #FFC20E;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.active{
+    width: 17%;
+    height: 62px;
+    border: 1px solid #FFC20E; 
+    background-color: #FFC20E !important;
+    transition: .3s all;
+}
+
+.px19{
+    padding-right: 76px;
+    padding-left: 76px;
+}
+
+.faqscontentw{
+    width: 44%;
+    transition: .3s all;
+}
+
+.h4size{
+    font-size: 22px;
+}
+
+.faqsLine{
+    width: 1px;
+    background-color: #FFC20E;
+}
+
+@media (max-width: 780px) {
+    .newsletter{
+        width: 100% !important;
+    }
+    .tabList{
+        width: 45%;
+    }
+    .active{
+        width: 45%;
+    }
+    .faqscontentw{
+        width: 100%;
+    }
+    .faqsLine{
+        display: none;
+    }
+    .px19{
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+    .hidden{
+        display: none;
+    }
+    .hFaqs{
+        padding-bottom: 68px;
+    }
+}
+
+@media (max-width: 1024PX) {
+    .tabList{
+        width: 20%;
+    }
+    .active{
+        width: 20%;
+    }
+}
+
+@media (max-width: 780px) {
+    .tabList{
+        width: 45%;
+    }
+    .active{
+        width: 45%;
+    }
+}

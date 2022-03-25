@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" viewBox="0 0 34 32">
+  <g id="share_icon" data-name="share icon" transform="translate(-223 -1347.322)">
+    <g id="Ellipse_2585" data-name="Ellipse 2585" transform="translate(223 1358.322)" fill="#ffc20e" stroke="#ffc20e" stroke-width="1">
+      <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+      <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+    </g>
+    <g id="Ellipse_2586" data-name="Ellipse 2586" transform="translate(245 1347.322)" fill="#ffc20e" stroke="#ffc20e" stroke-width="1">
+      <ellipse cx="6" cy="5.5" rx="6" ry="5.5" stroke="none"/>
+      <ellipse cx="6" cy="5.5" rx="5.5" ry="5" fill="none"/>
+    </g>
+    <g id="Ellipse_2587" data-name="Ellipse 2587" transform="translate(245 1368.322)" fill="#ffc20e" stroke="#ffc20e" stroke-width="1">
+      <ellipse cx="6" cy="5.5" rx="6" ry="5.5" stroke="none"/>
+      <ellipse cx="6" cy="5.5" rx="5.5" ry="5" fill="none"/>
+    </g>
+    <path id="Path_86937" data-name="Path 86937" d="M-14779.479-9482l-23.891,11.367,23.891,10.645" transform="translate(15031.992 10834.621)" fill="none" stroke="#ffc20e" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

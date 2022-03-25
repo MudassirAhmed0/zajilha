@@ -1,0 +1,214 @@
+.dropdownMenu {
+    width: 189px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 20px #6D8DAD26;
+    opacity: 0;
+    pointer-events: none;
+    transition: .4s;
+    transform: translateY(10px);
+
+}
+
+.dropdownBtn:hover .dropdownMenu {
+    opacity: 1;
+    pointer-events: initial;
+
+    transform: translateY(0px);
+}
+
+.dropdownBtn img {
+
+    transition: .2s;
+}
+
+.dropdownBtn:hover img {
+
+    transform: rotate(180deg);
+}
+
+.dropdownMenuItem:hover {
+    color: #0054a6;
+}
+
+.btn {
+    width: 160px;
+    font-size: 16px;
+    height: 40px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    backdrop-filter: blur(7px);
+    color: #0054a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerFluid {
+    width: 100%;
+    background-color: #0054a6;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.newsletter label {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    letter-spacing: 1.1px;
+    transition: .2s;
+
+}
+.newsletter textarea +label{
+    top: 10px;
+}
+.newsletter textarea{
+    padding-top: 5px;
+}
+.newsletter.track label {
+    color: #24343f;
+
+}
+
+.newsletter input, .newsletter textarea{
+    background: transparent;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    height: 100%;
+    outline: none;
+    color: #fff;
+
+}
+
+.newsletter.track input,.newsletter.track textarea {
+    border-bottom: 1px solid #24343f;
+    color: #24343f;
+}
+
+.newsletter input:focus+label,.newsletter textarea:focus+label {
+    top: -5px;
+    font-size: 14px;
+}
+
+.newsletter.track input:focus+label,.newsletter.track textarea:focus+label {
+    top: 0px;
+    font-size: 12px;
+}
+
+.newsletter input::placeholder,.newsletter textarea::placeholder {
+    visibility: hidden;
+}
+
+.newsletter input:not(:placeholder-shown)+label,.newsletter textarea:not(:placeholder-shown)+label {
+    top: -5px;
+    font-size: 14px;
+}
+
+.newsletter.track input:not(:placeholder-shown)+label {
+    top: 0;
+    font-size: 12px;
+}
+
+.newsletter {
+    height: 40px;
+    margin-right: 1.5rem;
+    width: 84%;
+    position: relative;
+}
+.newsletter.ta{
+    height: 120px;
+}
+
+.footerDivider {
+    max-width: 1320px;
+    width: 100%;
+    background-color: #fff;
+    opacity: .18;
+    height: 1px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chat {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    background: #FFC20E 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 15px #00000029;
+    border-radius: 8px;
+    right: 60px;
+    bottom: 20px;
+}
+
+.w86 {
+    width: 86.1%;
+    max-width: 1320px
+}
+
+.DownloadPdf {
+    width: 19.1%;
+    height: 67px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+
+}
+
+.borderPdf {
+    max-width: 1440px;
+    width: 100%;
+    background-color: #fff;
+    opacity: .18;
+    height: 1px;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.download > div { 
+    direction: ltr;
+}
+.download .react-multi-carousel-track {
+    direction: rtl !important;
+}
+.download ul {
+    direction: rtl !important;
+}
+[dir="rtl"] .carouselContainer{
+    direction: ltr;
+}
+@media (max-width: 640px) {
+    .newsletter {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .DownloadPdf {
+        width: 84.2%;
+    }
+
+    .download>div {
+        padding-left: 0 !important;
+
+    }
+}
+
+@media (max-width: 1300px) {
+    .DownloadPdf {
+        width: 95%;
+    }
+
+    .download>div {
+        padding-left: 0 !important;
+
+    }
+}

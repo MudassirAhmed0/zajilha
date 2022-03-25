@@ -1,0 +1,23 @@
+.rotate {
+    transform: rotate(90deg);
+}
+
+.chacha>span {
+    height: 421px !important;
+}
+
+.chacha img {
+    object-fit: cover !important;
+    border-radius: 10px !important;
+}
+
+.shares {
+    height: 15.66px;
+    width: 17px;
+}
+
+@media (max-width: 640px) {
+    .chacha>span {
+        height: 159px !important;
+    }
+}

@@ -1,0 +1,161 @@
+.flterWidth {
+  width: 37.58%;
+}
+
+.filterDetail {
+  padding: 40px 50px 38px 78.5px;
+  background-color: #F7F7F7;
+  border-radius: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 22px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 17px;
+  left: 2px;
+  bottom: 2.75px;
+  background-color: white;
+  transition: .4s;
+}
+
+.input:checked+.slider {
+  background-color: #FFC20E;
+}
+
+ 
+
+.input:checked+.slider:before {
+  -webkit-transform: translateX(23px);
+  -ms-transform: translateX(23px);
+  transform: translateX(23px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.filetTwo {
+  display: block;
+  padding: 16px 52px 86px 78.5px;
+
+}
+
+.maxHeight {
+  max-height: 710px;
+  overflow-y: scroll;
+}
+
+.maxHeight::-webkit-scrollbar {
+  display: none;
+}
+
+.font22 {
+  font-size: 22px;
+}
+
+.font19 {
+  font-size: 19px;
+}
+
+.iconOne {
+  width: 18.5px;
+  height: 22.5px;
+}
+
+.iconTwo {
+  width: 18.5px;
+  height: 18.5px;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 40px;
+}
+
+.maph {
+  height: 1046px;
+  width: 62.48%;
+}
+
+.marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 69px;
+  height: 69px;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+.filetTwoSecond{
+  display: none;
+}
+@media (max-width: 760px) {
+  .flterWidth {
+    width: 100%;
+  }
+
+  .filterDetail {
+    padding: 50px 18px 46px 18px;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .filetTwo {
+    display: none;
+  }
+
+  .maph {
+    width: 100%;
+    height: 497px;
+  }
+  .filetTwoSecond{
+    display: block;
+    padding: 35px 18px 85.5px 18px;
+  }
+  .marwaRahaHai{
+    width: 100%;
+  }
+}
+
+@media (max-width:1200px) {
+  .filetTwo{
+    padding: 16px 14px 86px 12.5px;
+  }
+  .filterDetail{
+    padding: 40px 11px 38px 9.5px;
+  }
+}

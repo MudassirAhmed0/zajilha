@@ -1,0 +1,29 @@
+.app {
+    height: 637px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.appBrandIcon{ 
+    width: 615px;
+    height: 367px;
+    bottom: -16%;
+    left: -206px;
+}
+.mobimgw{
+    width: 39%;
+}
+
+.textw{
+    width: 26%;
+}
+
+@media (max-width: 900px){
+    .mobimgw{
+        width: 100%;
+    }
+    
+    .textw{
+        width: 100%;
+    }
+}

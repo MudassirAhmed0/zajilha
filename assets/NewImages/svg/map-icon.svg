@@ -1,0 +1,18 @@
+<svg id="Icons" xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69">
+  <g id="Rounded">
+    <g id="Maps">
+      <g id="_-Round-_-Maps-_-pin_drop" data-name="-Round-/-Maps-/-pin_drop">
+        <g id="Group_41610" data-name="Group 41610">
+          <path id="Path" d="M0,0H69V69H0Z" fill="none"/>
+          <path id="_-Icon-Color" data-name="🔹-Icon-Color" d="M34.5,17.25a17.25,17.25,0,1,0-34.5,0C0,27.284,10.408,40.8,15.036,46.345a2.854,2.854,0,0,0,4.4,0C24.093,40.8,34.5,27.284,34.5,17.25Z" transform="translate(17.25 5.75)" fill="#ffc20e" stroke="#24343f" stroke-miterlimit="10" stroke-width="1.5"/>
+          <g id="Group_87393" data-name="Group 87393" transform="translate(42.287 31.875) rotate(-180)">
+            <path id="Polygon_4" data-name="Polygon 4" d="M13.4,0l4.467,7.788L13.4,15.573H4.465L0,7.785,4.465,0Z" transform="translate(15.573 0) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+            <path id="Line_4" data-name="Line 4" d="M0,8.673V0" transform="translate(7.787 0.261)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+            <path id="Path_86736" data-name="Path 86736" d="M0,4.381,7.67,0" transform="translate(0.117 8.934)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+            <path id="Path_86737" data-name="Path 86737" d="M7.67,4.381,0,0" transform="translate(7.767 8.934)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

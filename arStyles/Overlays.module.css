@@ -1,0 +1,139 @@
+.heroTop{
+    background: transparent linear-gradient(164deg, #5D5A57 0%, #605D5A00 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+filter: blur(12px);
+height: 649px;
+width: 100%;
+transform: matrix(1, -0.09, 0.09, 1, 0, 0);
+top: -196.205078125px;
+left: -144.173828125px;
+}
+.accordionOverlayAr2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 414px;
+    height: 558px; 
+    background: #001F21 0% 0% no-repeat padding-box;
+    opacity: 0.91;
+}
+.accordionOverlayAr{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 347px;
+    height: 590px; 
+    background: transparent linear-gradient(268deg, #02232A 0%, #011D2000 100%) 0% 0% no-repeat padding-box
+}
+.heroTop2{
+    background: transparent linear-gradient(75deg, #000000 0%, #00000053 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.78;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.heroBottom{
+    width: 100%;
+    top: -163px;
+    z-index: 3;
+    height: 174px; 
+background: transparent linear-gradient(180deg, var(--unnamed-color-0054a600) 0%, var(--unnamed-color-0054a6) 100%) 0% 0% no-repeat padding-box;
+background: transparent linear-gradient(180deg, #0054A600 0%, #0054A6 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.heroBottomBlue{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-0054a600) 0%, var(--unnamed-color-0054a6) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #0054A600 0%, #0054A6 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 174px;
+    z-index: 4;
+    width: 100%;
+}
+.videoBottomOverlay{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 190px; 
+    background: transparent linear-gradient(180deg, var(--unnamed-color-0054a600) 0%, #0054A684 53%, var(--unnamed-color-0054a6) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #0054A600 0%, #0054A684 53%, #0054A6 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.videoTopOverlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.2;
+}
+.videoTopOverlay2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000082 0% 0% no-repeat padding-box;
+    opacity: 0.53;
+}
+.accordionOverlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 414px;
+    height: 558px; 
+    background: #001F21 0% 0% no-repeat padding-box;
+    opacity: 0.91;
+}
+.accordionOverlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 463px;
+    height: 590px; 
+    background: transparent linear-gradient(88deg, #02232A 0%, #011D2000 100%) 0% 0% no-repeat padding-box;
+}
+.logisticsOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFC22E 0% 0% no-repeat padding-box; 
+}
+
+.carouselOverlay{
+    position: absolute;
+    top: 55px;
+    right: 0;
+    z-index: 55;
+    width: 237px;
+height: 370px; 
+background: transparent linear-gradient(90deg, #F1F1F100 0%, #F1F1F1 79%, #F1F1F1 100%) 0% 0% no-repeat padding-box;
+opacity: 1
+}
+.carouselOverlay2::before{
+    content: '';
+    position: absolute;
+    top: 55px;
+    width: 5.8%;
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    z-index: 5;
+    height: 370px;
+    left: 0;
+}
+
+
+@media(max-width:768px){
+    .heroBottomBlue{
+        display: none;
+    }
+    .aboutHero2{
+        background: transparent linear-gradient(165deg, #000000 0%, #00000053 100%) 0% 0% no-repeat padding-box;
+       
+    }
+}

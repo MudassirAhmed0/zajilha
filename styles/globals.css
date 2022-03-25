@@ -1,0 +1,355 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'din-next-regular' ;
+  src: url('../assets/fonts/din-next-regular.ttf');
+}
+@font-face {
+  font-family: 'din-next-bold' ;
+  src: url('../assets/fonts/din-next-bold.ttf');
+}
+@font-face {
+  font-family: 'din-next-light' ;
+  src: url('../assets/fonts/din-next-light.ttf');
+}
+@font-face {
+  font-family: 'din-next-medium' ;
+  src: url('../assets/fonts/din-next-medium.ttf');
+}
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'din-next-regular', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    box-sizing: border-box;
+    background-color: #0054a6;
+    
+  
+}
+input{
+  outline: none;
+}
+.btnFix{
+  padding-top: 2.5px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+.container{
+  max-width: 1440px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.regular-font{
+  font-family: 'din-next-regular';
+}
+.bold-font{
+  font-family: 'din-next-bold';
+}
+.light-font{
+  font-family: 'din-next-light';
+}
+.medium-font{
+  font-family: 'din-next-medium';
+}
+.react-multi-carousel-list  {
+  width: 100%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 1rem;
+}
+
+.react-multiple-carousel__arrow::before{
+  color: #24343f!important;
+  font-size: 15px!important;
+}
+.react-multiple-carousel__arrow{
+  background-color: transparent!important;
+  z-index: 4;
+}
+.react-multiple-carousel__arrow--left {
+  left: 6px!important;
+}
+.react-multiple-carousel__arrow--right {
+  right: 6px!important;
+}
+.w-69{
+  width: 69.5%;
+}
+.max-1394{
+  max-width: 1394px;
+}
+.img_container > span{
+  width: 100%!important;
+  height: 100%!important;
+}
+.img_container  img{
+  object-fit: cover!important;
+}
+.w-46-per{
+  width: 46.5%;
+}
+.verifyInput{
+  font-size: 40px;
+    font-family: 'din-next-light';
+    letter-spacing: 44px;
+    padding-left: 20px;
+    line-height: 47px
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.trackBtn{
+  box-shadow: 0px 3px 6px #00000029;
+border-radius: 5px;
+opacity: 1; 
+}
+.mobileNumberInput input{
+    width: 100%;
+    border-bottom:   1px solid #24343F;
+    height: 34px;
+}
+.mobileNumberInputAr input{
+    width: 100%;
+    border-bottom:   1px solid #24343F;
+    height: 34px;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.mobileNumberInput{
+  position: relative;
+}
+.mobileNumberInput label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #7d7d7d;
+  transition: .4s;
+} 
+.mobileNumberInput input::placeholder{
+  opacity: 0;
+}
+.mobileNumberInput input:focus + label,.mobileNumberInput input:not(:placeholder-shown) + label{
+  top: -18px;
+  font-size: 12px;
+}
+.mobileNumberInput input:focus::placeholder{
+   opacity: 1!important;
+   color: #0054a6 !important;
+   font-size: 18px;
+}
+ 
+.mobileNumberInput input:focus {
+  border-bottom: 2px solid #0054a6;
+}
+.mobileNumberInputAr{
+  position: relative;
+}
+.mobileNumberInputAr label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #7d7d7d;
+  transition: .4s;
+} 
+.mobileNumberInputAr input::placeholder{
+  opacity: 0;
+}
+.mobileNumberInputAr input:focus + label,.mobileNumberInputAr input:not(:placeholder-shown) + label{
+  top: -18px;
+  font-size: 12px;
+}
+.mobileNumberInputAr input:focus::placeholder{
+   opacity: 1!important;
+   color: #0054a6 !important;
+   font-size: 18px;
+}
+ 
+.mobileNumberInputAr input:focus {
+  border-bottom: 2px solid #0054a6;
+}
+.parentfulll.parentfull .react-multi-carousel-list{
+  padding-left: 3% !important;
+  padding-right: 3%!important;
+}
+.select .css-1s2u09g-control{
+  background:transparent!important;
+   border: none!important;
+}
+.select svg {
+  display: none!important;
+}
+.select *{
+  border: none!important;
+  outline: none!important;
+}
+.css-tlfecz-indicatorContainer{
+  display: none!important;
+}
+.css-1okebmr-indicatorSeparator{
+  background-color: transparent!important;
+}
+.fadeLeftt{
+  animation:  fadeleft 1s;
+}
+.cancelConfirmation::before{
+  position: relative;
+  top: -1.5px;
+}
+.cancelConfirmation label{
+  margin-top: 5px;
+}
+.bottomOverlay{
+  position: absolute;
+    width: 100%;
+    bottom: 0rem;
+    height: 174px;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-0054a600) 0%, var(--unnamed-color-0054a6) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #0054A600 0%, #0054A6 100%) 0% 0% no-repeat padding-box;
+}
+@keyframes fadeleft{
+  from{
+    left: -50px;
+    opacity: 0;
+  }
+  to{
+    left: 0;
+    opacity: 1;
+  }
+}
+.fadeRightt{
+  animation:  fadeRight .4s;
+}
+@keyframes fadeRight{
+  from{
+    right: -50px;
+    opacity: 0;
+  }
+  to{
+    right: 0;
+    opacity: 1;
+  }
+}
+ 
+.w-69 {
+  width: 69.5%;
+}
+
+.max-1394 {
+  max-width: 1394px;
+}
+.max-1200 {
+  max-width: 1394px;
+}
+
+.img_container>span {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.img_container>img {
+  object-fit: cover !important;
+}
+ 
+
+.parent .react-multiple-carousel__arrow--left {
+  left: -15px !important;
+  top: -5px;
+}
+
+.parent .react-multiple-carousel__arrow--right {
+  right: -15px !important;
+  top: -5px;
+}
+
+.parent .react-multi-carousel-list {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-bottom: 0 !important;
+}
+
+.parent .react-multi-carousel-item {
+  width: 230px !important;
+}
+
+.parent .react-multiple-carousel__arrow::before {
+  font-weight: bolder;
+}
+
+.img-border>span {
+  border-radius: 10px !important;
+}
+
+.parentfull .react-multi-carousel-list {
+  padding-left: 1% !important;
+  padding-right: 5% !important;
+  padding-bottom: 0 !important; 
+}
+
+.ksa-image > span{
+  
+  width: 749px !important;
+  height: 340px !important;
+
+}
+body{
+  position: relative;
+  overflow-x: hidden;
+}
+
+@media(max-width:768px){
+      .container{
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+      .react-multiple-carousel__arrow--left {
+        display: none!important;
+      }
+      .react-multiple-carousel__arrow--right {
+        display: none!important;
+      }
+      .bottomOverlay{
+          height: 127px;
+      }
+}
+@media (min-width:1600px){
+  .react-multi-carousel-list {
+    padding-left: 3%;
+    padding-right: 3%; 
+}
+}
+
+ .carousel-container{
+  direction: ltr;
+}

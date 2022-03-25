@@ -1,0 +1,158 @@
+.about{
+    height: 546px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.overlay1{
+    width: 100%;
+    height: 100%; 
+}
+.overlay1 > span{
+    width: 100%!important;
+    height: 100%!important;
+}
+.overlay1 img{
+    object-fit: cover;
+}
+.mdImg{
+    
+    min-width: 285px;
+    height: 351px; 
+    border-radius: 10px;
+}
+.mdImg > span{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+  }
+  .mdImg img {
+object-fit: cover;
+  }
+  .counterBrandIcon{
+      position: absolute;
+      bottom: -10px;
+  }
+  .historyContainer{
+      min-height: 1350px;
+  }
+  .bgYellow{
+    background-image: url('../assets/images/about-zajil-exprece/image/bg.jpg')!important; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .rightBox{
+      position: absolute;
+    bottom: -23px;
+    right: -10px;
+  }
+  .leftBox{
+      position: absolute;
+    bottom: -23px;
+    left: -12px;
+  }
+  .historyListItem::before {
+    content: "\2022";
+    color: #ffc20e;
+    font-weight: bold;
+    display: inline-block; 
+    width: 2em;
+    margin-left: -1em;
+  }
+  .historyItems::before{
+        content: "";
+        position: absolute;
+        top: 15px;
+        left:0;
+        width: 50%;
+        height: 95%;
+        /* background-color: red; */
+        border-right: 2px dashed #ffc20e;
+  }
+.lastHistoryItem::after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    right: -2px;
+    top: 59px;
+    background-color: #fff;
+
+}
+.firstHistoryItem::after{
+    content: '';
+    position: absolute;
+    top: -5px;
+    width: 5px;
+    height: 40%;
+    right: -2px;
+    background-color: #fff;
+}
+.boxShadowNone{
+    box-shadow: none!important;
+}
+.historyYellowTop{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 261px;
+height: 20px;  
+background: #FFC22E 0% 0% no-repeat padding-box;
+opacity: 0.95;
+}
+.kamalDekho{
+    height: 4rem;
+    width: 75%;
+    margin-left: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 3;
+}
+@media(max-width:1080px){
+    .mdImg{
+        min-width: 215px;
+        width: 215px;
+        height: 211px; 
+    }
+}
+@media(max-width:758px){
+    .about{
+        height: 400px;  
+    }
+    .rightBox{
+        right: 0;
+        left: -9px;
+        bottom: -23px;
+    }
+    .leftBox{
+        bottom: -24px;
+        left: -9px;
+    }
+    .historyItems::before{
+        top: 48px; 
+         width: 2px;
+          height: calc(100% - 58px)
+  }
+  .visionBorder::before{
+      content: '';
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 112px;
+    top: -32px;
+    border-right: 1px solid #fff;
+    opacity: 0.25;
+
+  }
+}
+@media(min-width:1600px){
+    .about{
+        min-height: 60vh;
+    }
+}

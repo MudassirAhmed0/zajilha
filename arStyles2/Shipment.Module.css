@@ -1,0 +1,12 @@
+.shipmentHero{
+    height: 705px;
+}
+.shipmentHeroImg{
+    height: 705px!important;
+}
+.shipmentHeroImg > span{
+    height: 100%!important;
+}
+.shipmentHeroImg img {
+    object-fit: cover;
+}

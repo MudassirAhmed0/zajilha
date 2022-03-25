@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'din-next-regular';
+  src: url('../assets/fonts/din-next-regular.ttf');
+}
+
+@font-face {
+  font-family: 'din-next-bold';
+  src: url('../assets/fonts/din-next-bold.ttf');
+}
+
+@font-face {
+  font-family: 'din-next-light';
+  src: url('../assets/fonts/din-next-light.ttf');
+}
+
+@font-face {
+  font-family: 'din-next-medium';
+  src: url('../assets/fonts/din-next-medium.ttf');
+}
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'din-next-regular', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+  background-color: #0054a6;
+
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.regular-font {
+  font-family: 'din-next-regular';
+}
+
+.bold-font {
+  font-family: 'din-next-bold';
+}
+
+.light-font {
+  font-family: 'din-next-light';
+}
+
+.medium-font {
+  font-family: 'din-next-medium';
+}
+
+.react-multi-carousel-list {
+  width: 100%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 1rem;
+}
+
+.react-multiple-carousel__arrow::before {
+  color: #24343f !important;
+  font-size: 15px !important;
+}
+
+.react-multiple-carousel__arrow {
+  background-color: transparent !important;
+  z-index: 4;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: 6px !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 6px !important;
+}
+
+.w-69 {
+  width: 69.5%;
+}
+
+.max-1394 {
+  max-width: 1394px;
+}
+
+.img_container>span {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.img_container>img {
+  object-fit: cover !important;
+}
+ 
+
+.parent .react-multiple-carousel__arrow--left {
+  left: -15px !important;
+  top: -5px;
+}
+
+.parent .react-multiple-carousel__arrow--right {
+  right: -15px !important;
+  top: -5px;
+}
+
+.parent .react-multi-carousel-list {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-bottom: 0 !important;
+}
+
+.parent .react-multi-carousel-item {
+  width: 230px !important;
+}
+
+.parent .react-multiple-carousel__arrow::before {
+  font-weight: bolder;
+}
+
+.img-border>span {
+  border-radius: 10px !important;
+}
+
+.parentfull .react-multi-carousel-list {
+  padding-left: 1% !important;
+  padding-right: 5% !important;
+  padding-bottom: 0 !important; 
+}
+
+.ksa-image > span{
+  
+  width: 700px !important;
+  height: 340px !important;
+
+}
+
+.dir-ltr{
+  direction: ltr;
+}
+
+.dir-rtl{
+  direction: rtl;
+}
+
+@media (max-width: 640px) {
+  .container{
+    padding-left: 12px;
+  }
+  
+}

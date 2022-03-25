@@ -1,0 +1,78 @@
+.heroSection {
+    height: 595px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.chachaStyles {
+    height: 370px;
+    min-width: 58.9%;
+    width: 58.9%;
+}
+
+.chachaStyles>span {
+    box-shadow: 0px 6px 6px #00000029;
+}
+
+.arrow {
+    transform: rotate(270deg);
+}
+
+.mycard {
+    height: 364px !important;
+    margin-right: 0 !important;
+}
+
+.imgw {
+    width: 59.22%;
+}
+
+.contentew {
+    width: 37.5%;
+}
+
+@media (max-width: 640px) {
+    .chachaStyles {
+        height: 183px;
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .contentew {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .chachaStyles {
+        width: 100%;
+    }
+
+    .contentew {
+        width: 100%;
+    }
+}
+
+.rotateIcon{
+    transform: rotate(180deg);
+  }
+
+  .rotateIcon2{
+    transform: rotate(90deg);
+  }
+
+  .mediaCarousel > div { 
+    direction: ltr;
+    padding-left: 1% !important;
+  }
+  .mediaCarousel .react-multi-carousel-track {
+    direction: rtl !important;
+  }
+  .mediaCarousel ul {
+    direction: rtl !important;
+  }
+
+  .heightCard{
+      /* height: 368px !important; */
+  }

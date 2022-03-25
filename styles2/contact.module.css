@@ -1,0 +1,40 @@
+.contact {
+    height: 546px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* .heroimg {
+    width: 100%;
+    height: 592px;
+} */
+
+.heroimg>span {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.reachside {
+    width: 49.5%;
+    border-right: 2px solid #c9c9c9;
+}
+
+.getside {
+    width: 39.5%;
+}
+ 
+.newsletter.track label{
+    color: #7D7D7D !important;
+    
+}
+
+@media (max-width: 750px) {
+    .reachside {
+        width: 100%;
+        border-right: none;
+    }
+    .getside {
+        width: 100%;
+    }
+}
