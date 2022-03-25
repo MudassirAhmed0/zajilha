@@ -4,7 +4,7 @@ import phones from '../../assets/NewImages/app-page/image/mobile-application.jpg
 import appstore from '../../assets/NewImages/png-files/appstore.png'
 import playstore from '../../assets/NewImages/png-files/playstore.png'
 import brandIcon from '../../assets/NewImages/svg/theAppBrand.svg' 
-import Link from 'next/Link'
+import Link from 'next/link'
 
 const AppDetail = () => {
   return (
