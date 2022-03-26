@@ -118,6 +118,11 @@ justify-content: center;
     -webkit-transition: .4s;
     transition: .4s;
  }
+ @-moz-document url-prefix() {
+    .menubar {
+      background-color: #222;
+    }
+  }
  .menubar.active{
      opacity: 1;
      pointer-events: initial;

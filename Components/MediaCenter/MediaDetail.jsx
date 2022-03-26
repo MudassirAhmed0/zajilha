@@ -37,7 +37,7 @@ const MediaDetail = () => {
     
     },[])
     return (
-        <div className='max-1394 mx-auto xl:pt-16 xl:px-20 xl:pb-24 py-14 pl-[18px] pr-[18px]'>
+        <div className='max-1394 overflow-hidden relative mx-auto xl:pt-16 xl:px-20 xl:pb-24 py-14 pl-[18px] pr-[18px]'>
             <div>
                 <span ref={box}>
                     <Image src={YellowBox} alt="Yellow Box" />

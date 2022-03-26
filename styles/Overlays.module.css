@@ -1,12 +1,12 @@
 .heroTop{
+    top: -196.205078125px;
+    left: -144.173828125px;
+    width: 82.1527%;
+    height: 649px;
+    transform: matrix(1, -0.09, 0.09, 1, 0, 0);
     background: transparent linear-gradient(164deg, #5D5A57 0%, #605D5A00 100%) 0% 0% no-repeat padding-box;
-opacity: 1;
-filter: blur(12px);
-height: 649px;
-width: 100%;
-transform: matrix(1, -0.09, 0.09, 1, 0, 0);
-top: -196.205078125px;
-left: -144.173828125px;
+    opacity: 1;
+    filter: blur(12px);
 }
 
 .heroTop2{

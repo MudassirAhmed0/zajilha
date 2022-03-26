@@ -18,10 +18,12 @@ const Header = ({noShipment}) => {
         if(document.getElementById('menubar').classList.contains(styles.active)){
             document.getElementById('menubar').classList.remove(styles.active)
             document.getElementById('header').classList.remove(styles.active)
+            document.getElementById('header').classList.replace('fixed','absolute')
             setIcon(hamburger)
         }else{
             document.getElementById('menubar').classList.add(styles.active)
             document.getElementById('header').classList.add(styles.active)
+            document.getElementById('header').classList.replace('absolute','fixed')
             setIcon(close)
             
         }
